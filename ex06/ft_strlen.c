@@ -23,11 +23,11 @@ int	ft_strlen(char *str)
 	return (i);
 }
 
-int	main(void)
-{
-	char	*str;
+// int	main(void)
+// {
+// 	char	*str;
 
-	str = "Salve o Corinthians!";
-	printf("%d", ft_strlen(str));
-	return (0);
-}
+// 	str = "Salve o Corinthians!";
+// 	printf("%d", ft_strlen(str));
+// 	return (0);
+// }
