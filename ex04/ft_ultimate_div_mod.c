@@ -10,9 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<unistd.h>
-#include<stdio.h>
-
 void	ft_ultimate_div_mod(int *a, int *b)
 {
 	int	div;
@@ -24,17 +21,20 @@ void	ft_ultimate_div_mod(int *a, int *b)
 	*b = mod;
 }
 
-int	main(void)
-{
-	int	a;
-	int	b;
+// #include<unistd.h>
+// #include<stdio.h>
 
-	a = 11;
-	b = 2;
+// int	main(void)
+// {
+// 	int	a;
+// 	int	b;
 
-	printf("Antes: a = %d | b = %d\n", a, b);
-	ft_ultimate_div_mod(&a, &b);
-	printf("Depois: a = %d | b = %d\n", a, b);
+// 	a = 11;
+// 	b = 2;
 
-	return (0);
-}
+// 	printf("Antes: a = %d | b = %d\n", a, b);
+// 	ft_ultimate_div_mod(&a, &b);
+// 	printf("Depois: a = %d | b = %d\n", a, b);
+
+// 	return (0);
+// }
