@@ -10,23 +10,23 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<unistd.h>
-#include<stdio.h>
-
 void	ft_ft(int *nbr)
 {
 	*nbr = 42;
 }
 
-int	main(void)
-{
-	int	aux;
-	int	*nbr;
+// #include<unistd.h>
+// #include<stdio.h>
 
-	aux = 0;
-	nbr = &aux;
-	printf("o valor atual é %d\n", aux);
-	ft_ft(nbr);
-	printf("o valor modificado é %d", aux);
-	return (0);
-}
+// int	main(void)
+// {
+// 	int	aux;
+// 	int	*nbr;
+
+// 	aux = 0;
+// 	nbr = &aux;
+// 	printf("o valor atual é %d\n", aux);
+// 	ft_ft(nbr);
+// 	printf("o valor modificado é %d", aux);
+// 	return (0);
+// }
